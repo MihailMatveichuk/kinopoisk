@@ -23,7 +23,7 @@ const useFilmsService = () => {
       {
         headers: {
           'Content-Type': 'application/json',
-          'X-Api-Key': '7CVMCY7-RDJ4X2B-GD4HNT8-DDW8ZSH',
+          'X-Api-Key': import.meta.env.API_TOKEN,
         },
       }
     );
