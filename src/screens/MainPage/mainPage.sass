@@ -1,0 +1,29 @@
+@import '../../style/variables.scss'
+
+.page
+    &__conatainer
+        width: 100%
+        position: relative
+    &__wrapper
+        width: calc( 100% - 400px)
+        height: calc(100% - 200px)
+        margin: 0 auto
+        margin-left: 400px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        padding-bottom: 100px
+    &__title
+        margin: 40px
+        font-weight: bold
+        font-size: 28px
+        line-height: 37px
+        span
+            color: $main-color
+
+    &__content
+        max-width: 100%
+
+    &__pagination
+        align-self: center
+        margin-top: 100px

@@ -1,0 +1,26 @@
+@import '../../style/variables.scss';
+
+.app {
+	&__banner {
+		width: 100%;
+		background-color: $dark;
+		height: 200px;
+
+		&_wrapper {
+			width: 90%;
+			height: 100%;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			&-text {
+				font-weight: bold;
+				font-size: 42px;
+				line-height: 32px;
+				color: #ffffff;
+	
+			}
+		}
+		
+	}
+}
